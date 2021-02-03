@@ -1,3 +1,7 @@
+/*Joshua Rosen
+jrosen5@myseneca.ca
+141652180
+01-27-21*/
 // Workshop 2: 
 // Version: 0.9
 // Date: 2021/1/23

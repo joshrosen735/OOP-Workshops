@@ -1,3 +1,7 @@
+/*Joshua Rosen
+jrosen5@myseneca.ca
+141652180
+01-27-21*/
 #define _CRT_SECURE_NO_WARNINGS
 #include <cstdio>
 #include "File.h"
@@ -20,15 +24,15 @@ namespace sdds {
    void closeFile() {
       if (fptr) fclose(fptr);
    }
-   /* TODO: read functions go here    
-   bool read(................) {
-      return .....
+   // TODO: read functions go here    
+   bool read(char name[]) {
+       return fscanf(fptr, "%[^\n]\n", name);
    }
-   bool read(................) {
-      return .....
+   bool read(int& number) {
+       return fscanf(fptr, "%d,", &number);
    }
-   bool read(................) {
-      return .....
+   bool read(double& salary) {
+       return fscanf(fptr, "%lf,", &salary);
    }
-   */
+   
 }
